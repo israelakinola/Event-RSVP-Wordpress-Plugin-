@@ -1,0 +1,17 @@
+{
+    "name": "israel/zaim",
+    "description": "Advance Image Manager",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Israel",
+            "email": "israel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":{},
+    "autoload": {
+        "psr-4": {"Inc\\":"./inc"}
+    }
+}
