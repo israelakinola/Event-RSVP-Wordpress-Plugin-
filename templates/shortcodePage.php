@@ -1,6 +1,6 @@
 
 <div class="container">
-    <div class="poster" style="height:400px; width:800px; background:url('<?php  echo  $event['event_poster'] ?>')">
+    <div class="poster" style="height:400px; width:800px; background:url('<?php  echo  $event['event_poster'] ?>') ; background-size:cover; background-repeat:no-repeat; background-position:center;">
     
     </div>
 

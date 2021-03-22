@@ -17,7 +17,7 @@
       require_once  $GLOBALS['plugin_path'] . 'templates/EventPage.php';
     }
 
-    //This Method hanldes the Create New Event Form from the EventPage View Template
+    //This method hanldes the Create New Event Form from the EventPage View Template
     public static function handleNewEventForm(){
       if ($_SERVER["REQUEST_METHOD"] == "POST" and $_REQUEST['event-title'] != '') {
         // collect value of input field
@@ -35,6 +35,7 @@
         }
       }
     }
+
     //This Method insert the event post and meta
     public static function createEventPost($event_title,$event_date, $event_venue, $event_poster){
       global $plugin_url;
